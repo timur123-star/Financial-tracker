@@ -41,7 +41,7 @@
     "@types/pg": "^8.11.10",
     "@vitest/coverage-v8": "^4.1.6",
     "eslint": "^9.16.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.4",
     "prettier": "^3.4.2",
