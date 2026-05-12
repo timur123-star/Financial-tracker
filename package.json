@@ -1,0 +1,62 @@
+{
+  "name": "personal-financial-tracker",
+  "version": "1.1.0",
+  "description": "Telegram bot for personal finance tracking with NLP parsing, charts and AI advice (Node.js + Telegraf + Groq + PostgreSQL + Redis + Canvas)",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,js,json,md,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md,yml,yaml}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "migrate": "tsx src/migrate.ts",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.8",
+    "chartjs-node-canvas": "^5.0.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "dotenv": "^17.4.2",
+    "groq-sdk": "^1.2.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.13.1",
+    "redis": "^5.12.1",
+    "telegraf": "^4.16.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^25.7.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.10",
+    "@vitest/coverage-v8": "^4.1.6",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.18.1",
+    "vitest": "^4.1.6"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  }
+}
