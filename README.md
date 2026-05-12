@@ -6,10 +6,10 @@
 
 `Node 22` · `TypeScript 5 strict` · `Telegraf 4` · `Groq (Llama 3.3 70B)` · `PostgreSQL 16` · `Redis 7` · `chartjs-node-canvas`
 
-[![CI](https://github.com/timur123-star/Personal-Financial-Tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/timur123-star/Personal-Financial-Tracker/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/timur123-star/Personal-Financial-Tracker/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/timur123-star/Personal-Financial-Tracker/actions/workflows/codeql.yml)
+[![CI](https://github.com/timur123-star/Financial-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/timur123-star/Financial-tracker/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/timur123-star/Financial-tracker/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/timur123-star/Financial-tracker/actions/workflows/codeql.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=node.js&logoColor=white)](https://nodejs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5%20%C2%B7%20strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6%20%C2%B7%20strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Telegraf](https://img.shields.io/badge/Telegraf-4-26A5E4?logo=telegram&logoColor=white)](https://telegraf.js.org/)
 [![Postgres](https://img.shields.io/badge/Postgres-16-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Redis](https://img.shields.io/badge/Redis-7-DC382D?logo=redis&logoColor=white)](https://redis.io/)
@@ -19,7 +19,7 @@
 [![Railway](https://img.shields.io/badge/Deploy-Railway-7c3aed?logo=railway&logoColor=white)](https://railway.app)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-[Source](https://github.com/timur123-star/Personal-Financial-Tracker) · [Architecture](./docs/ARCHITECTURE.md) · [Changelog](./CHANGELOG.md) · [Security](./SECURITY.md) · [Contributing](./CONTRIBUTING.md)
+[Source](https://github.com/timur123-star/Financial-tracker) · [Architecture](./docs/ARCHITECTURE.md) · [Changelog](./CHANGELOG.md) · [Security](./SECURITY.md) · [Contributing](./CONTRIBUTING.md)
 
 ---
 
