@@ -27,7 +27,7 @@
     "chartjs-node-canvas": "^5.0.0",
     "chartjs-plugin-datalabels": "^2.2.0",
     "dotenv": "^17.4.2",
-    "groq-sdk": "^1.2.0",
+    "groq-sdk": "^1.2.1",
     "node-cron": "^3.0.3",
     "pg": "^8.21.0",
     "redis": "^5.12.1",
